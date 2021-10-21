@@ -64,7 +64,6 @@ const App = () => {
             className="form-control mx-auto"
             onKeyUp={filterTasksByTitle}
             ref={filterTaskInput} />
-
           <i className="fa fa-search" aria-hidden="true" />
         </div>
 

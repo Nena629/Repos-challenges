@@ -10,7 +10,7 @@ const ItemTodo = ({title,id,onDeleteTask}) => {
      
         <button className="btn btn-danger float-end" 
          onClick= {()=>onDeleteTask(id)}>
-        <i className="fa fa-trash" aria-hidden="true" />
+       <i className="fa fa-trash" aria-hidden="true" />
         </button>
 
         
