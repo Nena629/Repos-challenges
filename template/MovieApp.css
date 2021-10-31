@@ -28,5 +28,9 @@ a{
     color: #FDB819;
     font-size: 30px;
 }
+
+.btn.btn-warning.mt-3{
+    font-family: 'Great Vibes', cursive;
+}
    
 

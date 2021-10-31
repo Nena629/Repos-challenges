@@ -14,72 +14,122 @@
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="MovieApp.css" />
-    <title>Movie APP | Challenge </title>
+    <title>details about the selected movie!! </title>
 
 </head>
 
 <body>
-<!-- HEADER PART -->
-  
-</body>
-
-
-
-
-
-
-
-
-
-
-
-<!-- FOOTER CONTENT  -->
-<footer class="border bg-light p-2">
-    <figure class="text-center ">
-        <blockquote class="blockquote">
-            <p>Period Drama Movies</p>
-        </blockquote>
-        <figcaption class="blockquote-footer">
-            Author name <cite title="Source Title">Naima</cite>
-        </figcaption>
-    </figure>
-</footer>
-
-
-
-<!-- MODAL FOR SIGN IN -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Sign In </h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <!-- HEADER PART  -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse px-5" id="navbarTogglerDemo01">
+                    <a class="navbar-brand text-warning" href="#">>Period Drama Site</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-warning text-uppercase"> sign in <i class="fa fa-sign-in-alt"></i></button>
+                </div>
             </div>
-            <div class="modal-body">
-                <form>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </nav>
+    </header>
+    <!-- MAIN CONTENT -->
+    <main class="p-3 m-3 d-flex align-items-center" style="height: 78vh;">
+
+
+        <div class="card">
+            <div class="row g-0">
+                <div class="col-md-3">
+                    <iframe src="https://assets.pinterest.com/ext/embed.html?id=60728294963063615" height="532"
+                            width="345" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <div class="col">
+                    <div class="card-body">
+                        <h1 class="card-title">The Little Women <span class="text-secondary fs-5 "> ( 6.3k )</span> <i
+                                class="fas fa-star text-warning"></i>
+                            <span>8.5<span class="text-secondary fs-2 ">/10</span></span>
+                        </h1>
+                        <p class="card-text">
+                            Meg, Jo, Beth, and Amy March are raised in genteel poverty by their loving mother,
+                            Marmee, in a quiet Massachusetts town while their father serves as an army chaplain during
+                            the American Civil War. They befriend Theodore Lawrence (Laurie), the lonely grandson of a rich
+                            old man next door. The vital force of the family is Jo, a headstrong tomboy who is the emotional centre of the
+                            book. In the course of the novel, beautiful, vain Meg marries Laurie’s tutor, John Brooke, and
+                            starts her own family; quiet, sickly Beth dies from scarlet fever; artistic Amy marries Laurie after he is turned
+                            down by Jo; and Jo marries Professor Bhaer, whom she meets while living in a boardinghouse, and together they set up a
+                            school for boys.</p>
+                        <p class="card-text"><small class="text-muted">PREMIERE DATE
+                                Janvier 1, 2019</small></p>
+                        <span class="badge bg-primary">Romance </span>
+                        <span class="badge bg-secondary">Drama</span>
+                        <span class="badge bg-success">Action</span> <br/>
+                        <h3 class="mt-3">Actors</h3>
+                        <ul class="list-group list-group-flush w-25">
+                            <li class="list-group-item ">Saoirse Ronan</li>
+                            <li class="list-group-item ">Florence Pugh</li>
+                            <li class="list-group-item ">Timothée Chalamet</li>
+                        </ul>
+                        <button class="btn btn-warning mt-3">Watch Now <i class="fas fa-eye"></i></button>
                     </div>
-                    <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                  
+                </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Conection</button>
+        </div>
+    </main>
+    <!-- FOOTER CONTENT  -->
+    <footer class="border bg-light p-2">
+        <figure class="text-center ">
+            <blockquote class="blockquote">
+                <p>Period Drama Movies</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                Author name <cite title="Source Title">Naima</cite>
+            </figcaption>
+        </figure>
+    </footer>
+
+
+
+    <!-- MODAL FOR SIGN IN -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign In </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Conection</button>
+                </div>
+                </form>
             </div>
-        </form>
         </div>
     </div>
-</div>
 </body>
 
 </html>
