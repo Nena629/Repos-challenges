@@ -25,6 +25,11 @@ li, ul {
     display: table;
 }
 
+.img{
+
+  width: 80px;
+}
+
 .login-header {
     display: inline-block;
     width: 100%;
